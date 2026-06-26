@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Microsoft YaHei", Arial;
+            background: #e8f5e9;
+        }
+
+        .container {
+            width: 900px;
+            margin: 30px auto;
+            display: flex;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* 左侧 */
+        .left {
+            width: 35%;
+            background: #2e7d32;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+            .left img {
+                width: 120px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+
+            .left h2 {
+                margin: 10px 0;
+            }
+
+            .left p {
+                font-size: 14px;
+                margin: 6px 0;
+            }
+
+        /* 右侧 */
+        .right {
+            width: 65%;
+            background: white;
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+            .section h3 {
+                border-left: 5px solid #2e7d32;
+                padding-left: 10px;
+                margin-bottom: 15px;
+            }
+
+        /* 技能条 */
+        .skill {
+            margin-bottom: 12px;
+        }
+
+        .skill-name {
+            font-size: 14px;
+        }
+
+        .skill-bar {
+            height: 8px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            height: 100%;
+            background: #2e7d32;
+        }
+
+        /* 列表点 */
+        .item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 左侧 -->
+        <div class="left">
+            <img src="487A27C1954D8583FD2B140717FD5E26.jpg">
+            <h2>舒荟颖</h2>
+            <p>软件开发工程师</p>
+
+            <p>📞 19122284947</p>
+            <p>📧 1438165473@qq.com</p>
+            <p>📍 中国</p>
+        </div>
+
+        <!-- 右侧 -->
+        <div class="right">
+
+            <div class="section">
+                <h3>教育背景</h3>
+                <p>重庆邮电大学 - 医学信息工程（2024-2028）</p>
+            </div>
+
+            <div class="section">
+                <h3>校园经历 / 担任职务</h3>
+
+                <div class="item">
+                    <b>校级负责人</b> ｜ 2025 - 至今
+                    <p>• 负责校级活动策划与组织执行，统筹团队分工</p>
+                    <p>• 协调各部门沟通，提高活动执行效率</p>
+                </div>
+
+                <div class="item">
+                    <b>院级负责人</b> ｜ 2025 - 至今
+                    <p>• 协助学院开展学生管理与活动组织</p>
+                    <p>• 对接老师与同学，及时解决问题</p>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3>技能</h3>
+
+                <div class="skill">
+                    <div class="skill-name">C#</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3>项目经历</h3>
+                <p>✔ 学生管理系统（C# WinForms）</p>
+                <p>✔ 个人网站开发（HTML/CSS/JS）</p>
+            </div>
+
+            <div class="section">
+                <h3>荣誉奖项</h3>
+                <p>• 校级优秀学生干部</p>
+                <p>• 校级数模竞赛三等奖</p>
+            </div>
+
+            <div class="section">
+                <h3>自我评价</h3>
+                <p>学习能力强，责任心强，具备良好的编程基础和团队合作能力。</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
